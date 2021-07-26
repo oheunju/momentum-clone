@@ -10,4 +10,4 @@ function getClock() {
 
 getClock();
 setInterval(getClock, 1000); // every 1sec
-// setTimeout(sayHello, 5000); // after 5sec
+// setTimeout(getClock, 5000); // after 5sec
